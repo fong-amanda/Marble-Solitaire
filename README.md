@@ -3,7 +3,7 @@ Overview
 
 Marble Solitaire is a single-player board game implemented in Java, featuring multiple board configurations and a robust Model-View-Controller (MVC) architecture. The game challenges players to remove marbles by jumping over them, with the goal of minimizing the number of marbles on the board.
 
-Features
+## Features
 
 Multiple board configurations (English and European Solitaire)
 Flexible game model with various board sizes
@@ -11,7 +11,7 @@ Text-based game interface
 Comprehensive move validation
 Customizable empty slot positioning
 
-Game Rules
+## Game Rules
 
 The game starts with marbles filling most of the board, leaving one slot empty
 Players can move a marble by jumping over another marble orthogonally
@@ -27,23 +27,23 @@ Jumped-over marbles are removed from the board
 The game ends when no more valid moves are possible
 The objective is to minimize the number of marbles remaining
 
-Supported Configurations
+## Supported Configurations
 
 English Solitaire: Traditional plus-shaped board
 European Solitaire: Octagonal board variant
 
-Prerequisites
+## Prerequisites
 
 Java Development Kit (JDK) 8 or higher
 A Java IDE (recommended: IntelliJ IDEA, Eclipse)
 
-Installation
+## Installation
 
 Clone the repository
 Open the project in your preferred Java IDE
 Ensure all dependencies are resolved
 
-Running the Game
+## Running the Game
 You can run the game with various command-line arguments:
 Examples
 bash# Default English Solitaire
@@ -65,7 +65,7 @@ Optional parameters:
 
 
 
-Project Structure
+## Project Structure
 
 model/: Game logic and board representations
 view/: Text-based visualization
