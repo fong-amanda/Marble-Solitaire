@@ -1,5 +1,6 @@
 # Marble-Solitaire
 Overview
+
 Marble Solitaire is a single-player board game implemented in Java, featuring multiple board configurations and a robust Model-View-Controller (MVC) architecture. The game challenges players to remove marbles by jumping over them, with the goal of minimizing the number of marbles on the board.
 Features
 
